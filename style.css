@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=League+Spartan:wght@400;500;700&family=Open+Sans&family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(images/bg-desktop.svg);
+    background-size: cover;
+    background-color: hsl(257, 40%, 49%);
+    background-repeat: no-repeat;
+    font-family: "open sans", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 1200px;
+    max-width: 100%;
+}
+
+.logo {
+    margin-bottom: 50px;
+}
+
+.geneltext {
+    color: #fff;
+    margin-left: 800px;
+    margin-top: -450px;
+}
+
+.geneltext h1 {
+    width: 350px;
+    padding-bottom: 30px;
+    word-spacing: 4px;
+}
+
+.geneltext p {
+    word-spacing: 3px;
+    width: 450px;
+}
+
+.geneltext button {
+    color: hsl(257, 40%, 49%);
+    width: 180px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+.geneltext button:hover{
+    background-color: hsl(300, 69%, 71%);
+}
+
+.links {
+    list-style: none;
+    justify-content: flex-end;
+    display: flex;
+    padding: 0;
+}
+
+.links a {
+    border: 2px solid #fff;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-flex;
+    margin-left: 20px;
+    height: 30px;
+    width: 30px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    margin-top: 450px;
+}
+a:hover{
+    background-color: hsl(300, 69%, 71%);
+}
+
+.creator{
+    margin-top: -800px;
+    font-size: 20px;
+    color:hsl(257, 40%, 49%) ;
+}
+
+.creator:hover{  /*this code is not included in the project*/
+    color: turquoise;
+} 
